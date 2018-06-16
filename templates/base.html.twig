@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ asset('build/css/cropper.css') }}">
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        <div class="container">
+            {% block body %}{% endblock %}
+        </div>
+        <script src="{{ asset('build/js/app.js') }}"></script>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

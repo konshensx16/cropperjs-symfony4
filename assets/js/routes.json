@@ -1,0 +1,1 @@
+{"base_url":"","routes":{"image":{"tokens":[["text","\/profile\/image"]],"defaults":[],"requirements":[],"hosttokens":[],"methods":["POST"],"schemes":[]}},"prefix":"","host":"localhost","scheme":"http"}

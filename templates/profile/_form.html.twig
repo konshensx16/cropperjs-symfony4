@@ -1,0 +1,5 @@
+{{ form_start(form, {'attr': {'id': 'profile_form'}}) }}
+    {{ form_widget(form) }}
+    <img width="400" src="" alt="" id="avatar">
+    <button class="btn">{{ button_label|default('Save') }}</button>
+{{ form_end(form) }}
